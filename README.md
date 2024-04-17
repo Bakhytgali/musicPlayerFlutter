@@ -1,10 +1,10 @@
-# musicplayer
+# Music Player
 
-A new Flutter project.
+Stack: Flutter, Dart
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This application was created using Flutter, Dart & Dart Spotify SDK.
 
 A few resources to get you started if this is your first Flutter project:
 
