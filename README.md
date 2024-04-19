@@ -29,7 +29,7 @@ dependencies:
 2) Install the dependency (You can press get "Pub get" if you're using Android Studio)
 
 3) It will import the dependency:
-```
+```dart
 import "package:spotify/spotify.dart";
 ```
 
@@ -37,7 +37,7 @@ import "package:spotify/spotify.dart";
 That will allow you to use ClientID and ClientSecret keys of your account to make API calls
 
 5) Store them in your variable:
-```
+```dart
 late SpotifyApiCredentials credentials;
 late SpotifyApi spotify;
 
@@ -50,6 +50,6 @@ late SpotifyApi spotify;
 ```
 
 6) Now you can use API calls!
-```
+```dart
 spotify.albums.get("4PWBTB6NYSKQwfo79I3prg")
 ```
