@@ -86,3 +86,12 @@ Slider(
               activeColor: const Color(0xFF41B06E),
             )
 ```
+3) As the player controllers (Skip previous, Pause, Skip Next) <br>
+I have used the Icon widget (the list of all available icons you can find here - https://api.flutter.dev/flutter/material/Icons-class.html)
+```dart
+Icon(
+  Icons.skip_previous_rounded,
+  color: Color(0xFFEEEEEE),
+  size: 50,
+)
+```
