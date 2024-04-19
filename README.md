@@ -8,9 +8,7 @@ This application was created using Flutter, Dart & Dart Spotify SDK.
 
 A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Link to Dart Spotify SDK] - https://pub.dev/packages/spotify 
+- [Spotify Android API] - https://developer.spotify.com/documentation/android
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+***Note that in order to use Spotify API you'll need to have a Spotify Premium Account
