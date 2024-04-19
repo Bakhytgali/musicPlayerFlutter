@@ -53,3 +53,36 @@ late SpotifyApi spotify;
 ```dart
 spotify.albums.get("4PWBTB6NYSKQwfo79I3prg")
 ```
+
+#### Layout
+
+1) To list the list of songs, I used SingleChildScrollView, so that user will be able to scroll through the list
+```dart
+SingleChildScrollView(
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              for (var albumFuture in widget.albums)
+```
+**Note** - As its child I used Center widget to store the elements in the middle of the screen, <br>
+And as its child, Column to display the list 
+
+2) To display the Slider which can allow users to manipulate songs current timespan <br>
+I have used Slider Widget
+```dart
+Slider(
+              value: _currentSliderValue,
+              min: 0,
+              max: 100,
+              divisions: 100,
+              label: _currentSliderValue.round().toString(),
+              onChanged: (double value) {
+                setState(() {
+                  _currentSliderValue = value;
+                });
+              },
+              activeColor: const Color(0xFF41B06E),
+            )
+```
